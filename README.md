@@ -5,4 +5,4 @@ This demo requires Google Analytics API PHP Interface - [GAPI] (https://code.goo
 and local web-server like [Denwer] (http://www.denwer.ru/)
 
 
-![Screenshot](https://github.com/Lab-V/gapi_php_report/blob/master/www/images/gapi_php_report.jpg)
+![Screenshot](https://github.com/Lab-V/gapi_php_report/raw/master/www/images/gapi_php_report.jpg)
