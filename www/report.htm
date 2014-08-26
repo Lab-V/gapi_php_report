@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://www.google.com/jsapi" type="text/javascript" ></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="libs/demoYearReport.js" type="text/javascript"></script>
+        <link href="styles/reportStyle.css" rel="stylesheet" type="text/css"/>
+        <title>Lab-V: gapi-php report demo</title>
+        <script type="text/javascript">
+            google.load("visualization", "1", {packages:["corechart"]});
+            
+            var _rootDocumentObj;
+            
+            var _yearReportUI;
+            
+            $(document).ready(function()
+            {
+                _rootDocumentObj = $(this);
+                
+                _yearReportUI = _rootDocumentObj.find(".content").yearReportUI();
+            });
+        </script>
+    </head>
+    <body>
+         <noscript>
+            <p>JavaScript отключён в Вашем броузере. Пожалуйста, включите для корректной работы сайта</p>
+            <p>JavaScript support in Your browser disabled. Please enable it to proper work</p>
+        </noscript>
+        <div class="content">
+            <div class="host_summary">
+                <div class="host_visits">
+                    <span class="div_title">visits</span>
+                </div>
+                <div class="host_loads">
+                    <span class="div_title">loads</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

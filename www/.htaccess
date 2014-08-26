@@ -1,0 +1,13 @@
+#	REV. 20140826
+#
+
+AddDefaultCharset UTF-8
+
+Options -Indexes
+
+DirectoryIndex index.php index.htm
+
+AddHandler application/x-httpd-php .php .htm .html .phtml
+
+RewriteEngine on
+Options +FollowSymlinks
